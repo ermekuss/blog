@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-main">
+      <div class="hero-copy">
+        <h1 class="hero-h">Философия, политика и цифровая современность</h1>
+        <p class="hero-p">Авторские заметки, выпуски подкаста, краткие обзоры статей, полезные ссылки для учёных.</p>
+      </div>
+
+      <aside class="photo-card" aria-label="Фото автора">
+        <div class="photo-placeholder">
+          <div class="photo-box">Фото автора</div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="cards">
+  <div class="container">
+    <div class="grid" role="list">
+      {% for post in site.posts limit:3 %}
+      <article class="card" role="listitem">
+        <div class="card-top">
+          <div class="card-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M6 3h9l3 3v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="2"/>
+              <path d="M9 10h6M9 14h6M9 18h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h2 class="card-title">{{ post.title }}</h2>
+        </div>
+        <div class="card-body">
+          <p class="card-desc">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+          <div class="card-meta">{{ post.date | date: "%d.%m.%Y" }}{% if post.categories and post.categories.size > 0 %} · {{ post.categories[0] }}{% endif %}</div>
+          <a class="card-btn" href="{{ post.url | relative_url }}">Открыть</a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

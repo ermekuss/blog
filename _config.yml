@@ -1,0 +1,22 @@
+title: Toktarov Notes
+description: "Философия, политика и цифровая современность: заметки, подкаст, обзоры статей и полезные ссылки для учёных."
+lang: ru
+timezone: Asia/Almaty
+
+url: ""        # например: https://USERNAME.github.io
+baseurl: ""    # для project pages: "/REPO"
+
+permalink: /posts/:year/:month/:day/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+
+excerpt_separator: "<!--more-->"
+
+social:
+  facebook: ""
+  x: ""
+  linkedin: ""
+
+plugins:
+  - jekyll-feed

@@ -1,0 +1,67 @@
+<header class="hero">
+  <div class="container">
+    <div class="topbar">
+      <div class="brand" aria-label="{{ site.title }}">
+        <div class="brand-mark" title="{{ site.title }}">TN</div>
+        <div class="brand-title">{{ site.title }}</div>
+      </div>
+
+      <div class="social" aria-label="Социальные сети">
+        {% if site.social.facebook and site.social.facebook != "" %}
+          <a href="{{ site.social.facebook }}" aria-label="Facebook" title="Facebook">f</a>
+        {% endif %}
+        {% if site.social.x and site.social.x != "" %}
+          <a href="{{ site.social.x }}" aria-label="X" title="X">x</a>
+        {% endif %}
+        {% if site.social.linkedin and site.social.linkedin != "" %}
+          <a href="{{ site.social.linkedin }}" aria-label="LinkedIn" title="LinkedIn">in</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="navwrap">
+    <div class="container">
+      <nav aria-label="Основная навигация">
+        <a class="nav-item" href="{{ '/pikir/' | relative_url }}">
+          <svg class="nav-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4Z" stroke="currentColor" stroke-width="2"/>
+            <path d="M4 20c1.8-4 14.2-4 16 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          Pikir
+        </a>
+        <a class="nav-item" href="{{ '/monocast/' | relative_url }}">
+          <svg class="nav-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 14a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v5a3 3 0 0 0 3 3Z" stroke="currentColor" stroke-width="2"/>
+            <path d="M19 11a7 7 0 0 1-14 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M12 18v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M8 21h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          Monocast
+        </a>
+        <a class="nav-item" href="{{ '/maqala/' | relative_url }}">
+          <svg class="nav-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M6 3h9l3 3v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="2"/>
+            <path d="M9 10h6M9 14h6M9 18h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          Maqala
+        </a>
+        <a class="nav-item" href="{{ '/kerek/' | relative_url }}">
+          <svg class="nav-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M6 2h12v20l-6-3-6 3V2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+          </svg>
+          Kerek
+        </a>
+        <a class="nav-item" href="{{ '/cv/' | relative_url }}">
+          <svg class="nav-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M6 3h9l3 3v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="2"/>
+            <path d="M9 9h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M9 13h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M9 17h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          CV
+        </a>
+      </nav>
+    </div>
+  </div>
+</header>

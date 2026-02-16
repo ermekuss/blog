@@ -3,8 +3,8 @@ description: "Философия, политика и цифровая совр�
 lang: ru
 timezone: Asia/Almaty
 
-url: ""        # например: https://USERNAME.github.io
-baseurl: ""    # для project pages: "/REPO"
+url: ""        # например: https://ermekuss.github.io
+baseurl: ""    # для project pages: "/blog"
 
 permalink: /posts/:year/:month/:day/:title/
 markdown: kramdown
@@ -14,9 +14,9 @@ kramdown:
 excerpt_separator: "<!--more-->"
 
 social:
-  facebook: ""
-  x: ""
-  linkedin: ""
+  facebook: "https://www.facebook.com/ermekuss"
+  x: "https://x.com/ermekuss"
+  linkedin: "https://www.linkedin.com/in/yermek-toktarov-b7996b58/"
 
 plugins:
   - jekyll-feed

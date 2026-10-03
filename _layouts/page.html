@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<section class="page-hero">
+  <div class="shell narrow">
+    {% if page.eyebrow %}<div class="eyebrow">{{ page.eyebrow }}</div>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.lead %}<p class="page-lead">{{ page.lead }}</p>{% endif %}
+  </div>
+</section>
+<section class="page-content">
+  <div class="shell narrow prose">
+    {{ content }}
+  </div>
+</section>

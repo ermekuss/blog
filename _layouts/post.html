@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <div class="shell post-width">
+      <div class="post-kicker">
+        <span>{{ page.series | default: page.category | default: 'Философия для жизни' }}</span>
+        <span aria-hidden="true">—</span>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time>
+      </div>
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}<p class="post-subtitle">{{ page.subtitle }}</p>{% endif %}
+      {% if page.question %}<div class="question-box"><span>?</span>{{ page.question }}</div>{% endif %}
+    </div>
+  </header>
+
+  <div class="shell post-width prose post-body">
+    {{ content }}
+  </div>
+
+  <footer class="shell post-width post-footer">
+    {% if page.tags %}
+      <div class="tag-row">
+        {% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}
+      </div>
+    {% endif %}
+    <a class="text-link" href="{{ '/blog/' | relative_url }}">← Все тексты</a>
+  </footer>
+</article>

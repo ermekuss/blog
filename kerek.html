@@ -1,0 +1,35 @@
+---
+layout: default
+permalink: /kerek/
+title: "Kerek"
+description: "Практические философские материалы: карты вопросов, мысленные эксперименты, списки чтения и рабочие инструменты."
+---
+<section class="page-hero">
+  <div class="shell narrow">
+    <div class="eyebrow">Полезное</div>
+    <h1>Kerek</h1>
+    <p class="page-lead">Не второй блог, а библиотека материалов, к которым можно возвращаться: вопросы для размышления, мысленные эксперименты, схемы аргументов, списки чтения и конспекты.</p>
+  </div>
+</section>
+<section class="page-content">
+  <div class="shell">
+    {% if site.kerek.size > 0 %}
+      <div class="resource-grid">
+        {% assign items = site.kerek | sort: 'order' %}
+        {% for item in items %}
+          <a class="resource-card" href="{{ item.url | relative_url }}">
+            <div class="resource-mark">{{ item.symbol | default: '•' }}</div>
+            <div class="resource-type">{{ item.kind | default: 'Материал' }}</div>
+            <h2>{{ item.title }}</h2>
+            <p>{{ item.description }}</p>
+            <span class="text-link">Открыть →</span>
+          </a>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="empty-state prose narrow">
+        <p>Раздел подготовлен для материалов, которые не являются самостоятельными эссе. Пока его можно оставить в меню только после появления нескольких действительно полезных единиц контента.</p>
+      </div>
+    {% endif %}
+  </div>
+</section>

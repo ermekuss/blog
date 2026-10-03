@@ -1,0 +1,35 @@
+---
+layout: default
+permalink: /monocast/
+title: "Monocast"
+description: "Видео, аудио, лекции и короткие философские монологи Ермека Токтарова."
+---
+<section class="page-hero">
+  <div class="shell narrow">
+    <div class="eyebrow">Голос и видео</div>
+    <h1>Monocast</h1>
+    <p class="page-lead">Видео, аудио, публичные лекции, интервью и короткие монологи. Здесь философская мысль существует не только как текст, но и как разговор.</p>
+  </div>
+</section>
+<section class="page-content">
+  <div class="shell">
+    {% if site.monocast.size > 0 %}
+      <div class="media-grid">
+        {% assign items = site.monocast | sort: 'date' | reverse %}
+        {% for item in items %}
+          {% if item.external_url %}<a class="media-card" href="{{ item.external_url }}" target="_blank" rel="noopener">{% else %}<a class="media-card" href="{{ item.url | relative_url }}">{% endif %}
+            <div class="media-symbol">{{ item.symbol | default: '▶' }}</div>
+            <div class="resource-type">{{ item.format | default: 'Monocast' }}</div>
+            <h2>{{ item.title }}</h2>
+            <p>{{ item.description }}</p>
+            <span class="text-link">{% if item.external_url %}Смотреть / слушать ↗{% else %}Открыть →{% endif %}</span>
+          </a>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="empty-state prose narrow">
+        <p>Раздел готов к наполнению. Для каждой новой записи достаточно добавить один Markdown-файл в папку <code>_monocast</code>; HTML редактировать не потребуется.</p>
+      </div>
+    {% endif %}
+  </div>
+</section>

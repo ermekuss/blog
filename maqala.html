@@ -1,0 +1,26 @@
+---
+layout: default
+permalink: /maqala/
+title: "Maqala"
+description: "Философские статьи, эссе и разборы Ермека Токтарова."
+---
+<section class="page-hero">
+  <div class="shell narrow">
+    <div class="eyebrow">Тексты</div>
+    <h1>Maqala</h1>
+    <p class="page-lead">Основной письменный раздел сайта: философские эссе, разборы идей, мысленные эксперименты и вопросы о выборе, знании, свободе, идентичности и современной жизни.</p>
+  </div>
+</section>
+<section class="page-content">
+  <div class="shell">
+    <div class="section-head compact-head">
+      <p class="muted section-note">Все содержательные тексты публикуются здесь. Для навигации можно использовать серии и теги внутри публикаций.</p>
+      <a class="text-link" href="{{ '/topics/' | relative_url }}">Карта тем →</a>
+    </div>
+    <div class="post-grid archive-grid">
+      {% for post in site.posts %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

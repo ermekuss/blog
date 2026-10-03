@@ -1,0 +1,95 @@
+---
+layout: default
+title: ""
+description: "Ермек Токтаров — философ. Maqala, Kerek и Monocast: тексты, философские инструменты и разговоры о выборе, знании, свободе и современной жизни."
+---
+<section class="hero">
+  <div class="shell hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">{{ site.data.profile.brand }}</div>
+      <h1>{{ site.data.profile.name }}</h1>
+      <p class="hero-role">{{ site.data.profile.role }}</p>
+      <p class="hero-lead">{{ site.data.profile.intro }}</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="{{ '/maqala/' | relative_url }}">Читать Maqala</a>
+        <a class="btn secondary" href="{{ '/cv/' | relative_url }}">Образование и опыт</a>
+      </div>
+      <div class="brand-principle" aria-label="Мысль, вопрос, выбор">
+        <span>мысль</span><i></i><span>вопрос</span><i></i><span>выбор</span>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="shape shape-navy"></div>
+      <div class="shape shape-copper"></div>
+      <img src="{{ '/assets/images/profile.webp' | relative_url }}" alt="Ермек Токтаров" width="800" height="800">
+      <div class="hero-symbol">?</div>
+    </div>
+  </div>
+</section>
+
+<section class="section statement">
+  <div class="shell statement-grid">
+    <div class="section-label">01 — Подход</div>
+    <div>
+      <p class="big-statement">Философия нужна не для того, чтобы иметь готовый ответ на каждый вопрос, а чтобы точнее видеть, <em>какой вопрос мы вообще решаем.</em></p>
+      <p class="muted">Этот сайт — пространство практической философии: о знании и сомнении, выборе и ответственности, идентичности, технологиях, справедливости и противоречиях современной жизни.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section latest">
+  <div class="shell">
+    <div class="section-head">
+      <div>
+        <div class="section-label">02 — Maqala</div>
+        <h2>Последние тексты</h2>
+      </div>
+      <a class="text-link" href="{{ '/maqala/' | relative_url }}">Все публикации →</a>
+    </div>
+    <div class="post-grid">
+      {% for post in site.posts limit: 3 %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-cards">
+  <div class="shell">
+    <div class="section-head">
+      <div>
+        <div class="section-label">03 — Форматы</div>
+        <h2>Три способа работать с идеями</h2>
+      </div>
+    </div>
+    <div class="format-grid">
+      <a class="format-card" href="{{ '/maqala/' | relative_url }}"><span>01</span><h3>Maqala</h3><p>Полноценные философские тексты: эссе, разборы, мысленные эксперименты и главы из более крупных проектов.</p><b>Читать →</b></a>
+      <a class="format-card" href="{{ '/kerek/' | relative_url }}"><span>02</span><h3>Kerek</h3><p>Полезные материалы, которые можно применять: карты вопросов, списки чтения, схемы аргументов и философские упражнения.</p><b>Открыть →</b></a>
+      <a class="format-card" href="{{ '/monocast/' | relative_url }}"><span>03</span><h3>Monocast</h3><p>Видео и аудио: лекции, интервью, короткие монологи и разговоры, в которых философия звучит вслух.</p><b>Смотреть / слушать →</b></a>
+    </div>
+  </div>
+</section>
+
+<section class="section book-strip">
+  <div class="shell book-grid">
+    <div class="section-label">04 — В работе</div>
+    <div>
+      <h2>«50 вопросов, которые меняют всё»</h2>
+      <p>Книга о вопросах, которые помогают отделять проблему от её первого описания, собственные основания от заимствованных, а решение — от желания просто избавиться от неопределённости. Каждая глава строится вокруг одного философского вопроса и одного мысленного эксперимента.</p>
+    </div>
+    <div class="book-mark" aria-hidden="true"><span class="dot"></span><span class="line"></span><span class="question">?</span></div>
+  </div>
+</section>
+
+<section class="section about-preview">
+  <div class="shell about-grid">
+    <div class="section-label">05 — CV</div>
+    <div>
+      <h2>Философия, исследование, преподавание и практика</h2>
+      <p>Доктор философии (PhD), политолог по базовому образованию и преподаватель философии. Исследовательский опыт связан с идентичностью, цифровым обществом, искусственным интеллектом и социальной справедливостью; профессиональная практика — с аналитикой, стратегическим и проектным управлением.</p>
+      <p class="muted">{{ site.data.profile.current_role }} {{ site.data.profile.teaching }}</p>
+      <a class="text-link" href="{{ '/cv/' | relative_url }}">Образование и опыт →</a>
+    </div>
+  </div>
+</section>

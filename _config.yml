@@ -1,0 +1,38 @@
+title: "Ермек Токтаров — философ"
+description: "Философия для жизни: правильные вопросы, осмысленный выбор и взвешенные решения."
+lang: ru
+url: "https://ermekuss.github.io"
+baseurl: "/blog"
+timezone: Asia/Almaty
+permalink: /maqala/:year/:month/:day/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+future: false
+show_excerpts: true
+collections:
+  kerek:
+    output: true
+    permalink: /kerek/:name/
+  monocast:
+    output: true
+    permalink: /monocast/:name/
+defaults:
+  - scope:
+      path: ""
+      type: "kerek"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "monocast"
+    values:
+      layout: "page"
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .idea
+  - .vscode

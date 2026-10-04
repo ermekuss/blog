@@ -1,9 +1,8 @@
 ---
 layout: default
 title: ""
-description: "Ермек Токтаров — философ. Философия для жизни: тексты, полезные материалы, подкаст и профессиональный путь."
+description: "Ермек Токтаров — философ. Философия для жизни: тексты, полезные материалы, Monocast и профессиональный путь."
 ---
-
 <section class="main-section" id="about">
   <div class="masthead">
     <div class="eyebrow">{{ site.data.profile.brand }}</div>
@@ -12,7 +11,7 @@ description: "Ермек Токтаров — философ. Философия
     <p class="bio">{{ site.data.profile.intro }}</p>
     <div class="masthead-actions">
       <a class="btn primary" href="{{ '/maqala/' | relative_url }}">Читать Maqala</a>
-      <a class="btn secondary" href="{{ '/cv/' | relative_url }}">Полное CV</a>
+      <a class="btn secondary" href="{{ '/cv/' | relative_url }}">Образование и опыт</a>
     </div>
   </div>
 </section>
@@ -21,7 +20,7 @@ description: "Ермек Токтаров — философ. Философия
   <div class="sec-wrap">
     <div class="section-kicker">Тексты</div>
     <div class="sec-head"><h2 class="sec-title">Maqala</h2><div class="sec-rule"></div></div>
-    <p class="sec-intro">Философские эссе, разборы идей и мысленные эксперименты. Основной письменный раздел сайта — о знании, выборе, свободе, идентичности, справедливости и современной жизни.</p>
+    <p class="sec-intro">Философские эссе, разборы идей и мысленные эксперименты — о знании, выборе, свободе, идентичности, справедливости и современной жизни.</p>
     <div class="timeline">
       {% for post in site.posts limit: 4 %}
       <article class="tl-item">
@@ -43,7 +42,7 @@ description: "Ермек Токтаров — философ. Философия
   <div class="sec-wrap">
     <div class="section-kicker">Полезное</div>
     <div class="sec-head"><h2 class="sec-title">Kerek</h2><div class="sec-rule"></div></div>
-    <p class="sec-intro">Библиотека материалов, которые можно использовать: карты вопросов, схемы аргументов, философские упражнения, списки чтения и мысленные эксперименты.</p>
+    <p class="sec-intro">Материалы, к которым можно возвращаться: карты вопросов, схемы аргументов, философские упражнения и списки чтения.</p>
     <div class="topic-grid">
       {% assign items = site.kerek | sort: 'order' %}
       {% for item in items limit: 6 %}
@@ -78,7 +77,7 @@ description: "Ермек Токтаров — философ. Философия
       {% endfor %}
     </div>
     {% else %}
-      <p class="sec-intro">Раздел готов к наполнению. После добавления первого файла в <code>_monocast</code> карточки появятся здесь автоматически.</p>
+      <p class="sec-intro">Раздел готов к наполнению. После добавления первой записи в <code>_monocast</code> она появится здесь автоматически.</p>
     {% endif %}
     <a class="text-link" href="{{ '/monocast/' | relative_url }}">Открыть Monocast →</a>
   </div>
@@ -90,26 +89,10 @@ description: "Ермек Токтаров — философ. Философия
     <div class="sec-head"><h2 class="sec-title">Образование и опыт</h2><div class="sec-rule"></div></div>
     <p class="sec-intro">Профессиональный и академический путь: философия, исследования, преподавание, аналитика и проектное управление.</p>
     <div class="cv-summary">
-      <div class="cv-card">
-        <small>С августа 2026</small>
-        <h3>Руководитель</h3>
-        <p>Группа реализации базового направления «Поддержка молодежи, развитие культуры и спорта», Дирекция проектного управления АО «Центр развития города Алматы».</p>
-      </div>
-      <div class="cv-card">
-        <small>Преподавание</small>
-        <h3>Университет Нархоз</h3>
-        <p>Преподавание философии; занятия по критическому мышлению, знанию, реальности, свободе и принятию решений.</p>
-      </div>
-      <div class="cv-card">
-        <small>2025–2027</small>
-        <h3>ИИ и этика социальной справедливости</h3>
-        <p>Член исследовательской группы научного проекта.</p>
-      </div>
-      <div class="cv-card">
-        <small>PhD</small>
-        <h3>Философия</h3>
-        <p>КазНУ имени аль‑Фараби. Исследование роли ИКТ в трансформации национальной идентичности казахстанцев.</p>
-      </div>
+      <div class="cv-card"><small>С августа 2026</small><h3>АО «Центр развития города Алматы»</h3><p>Проектное управление, мониторинг городских проектов и аналитические рекомендации.</p></div>
+      <div class="cv-card"><small>Преподавание</small><h3>Университет Нархоз</h3><p>Курс философии, критическое мышление, знание, свобода и принятие решений.</p></div>
+      <div class="cv-card"><small>2025–2027</small><h3>ИИ и этика социальной справедливости</h3><p>Член исследовательской группы научного проекта.</p></div>
+      <div class="cv-card"><small>PhD</small><h3>Философия</h3><p>КазНУ имени аль‑Фараби. Исследование идентичности и цифровой трансформации.</p></div>
     </div>
     <a class="btn secondary" href="{{ '/cv/' | relative_url }}">Открыть полное CV</a>
   </div>

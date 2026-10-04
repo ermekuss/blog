@@ -56,4 +56,4 @@ lead: "Профессиональный и академический путь: 
 
 ## Академические профили
 
-[Google Scholar]({{ https://scholar.google.com/citations?user=p_b0wQMAAAAJ&hl=ru }}) · [ORCID]({{ https://orcid.org/0000-0002-8691-5222 }}) · [LinkedIn]({{ https://www.linkedin.com/in/yermek-toktarov-b7996b58/ }})
+[Google Scholar](https://scholar.google.com/citations?user=p_b0wQMAAAAJ&hl=ru) · [ORCID](https://orcid.org/0000-0002-8691-5222) · [LinkedIn](https://www.linkedin.com/in/yermek-toktarov-b7996b58/)

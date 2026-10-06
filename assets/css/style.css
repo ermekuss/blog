@@ -130,3 +130,67 @@ img{max-width:100%;display:block}
   .masthead,.sec-wrap,.page-hero,.page-content,.post-header,.post-body,.post-footer{width:calc(100% - 34px)}
   .masthead{padding-top:34px;padding-bottom:32px}.masthead-name{font-size:42px}.topic-grid,.media-grid,.post-grid,.resource-grid,.format-grid,.cv-summary{grid-template-columns:1fr}.tl-item{grid-template-columns:1fr;gap:4px}
 }
+/* Wide research tables */
+.table-scroll{
+  width:100%;
+  overflow-x:auto;
+  margin:24px 0 36px;
+  -webkit-overflow-scrolling:touch;
+  border:1px solid var(--rule);
+  background:var(--paper);
+}
+
+.table-scroll table{
+  width:max-content;
+  min-width:100%;
+  border-collapse:collapse;
+  font-family:var(--sans);
+  font-size:12px;
+  line-height:1.45;
+}
+
+.table-scroll th,
+.table-scroll td{
+  padding:10px 12px;
+  border-right:1px solid var(--rule);
+  border-bottom:1px solid var(--rule);
+  vertical-align:top;
+  text-align:left;
+  min-width:120px;
+}
+
+.table-scroll th{
+  background:var(--navy);
+  color:var(--milk);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.04em;
+  position:sticky;
+  top:0;
+  z-index:2;
+}
+
+.table-scroll th:first-child,
+.table-scroll td:first-child{
+  min-width:48px;
+  width:48px;
+}
+
+.table-scroll th:nth-child(2),
+.table-scroll td:nth-child(2){
+  min-width:140px;
+}
+
+.table-scroll th:nth-child(3),
+.table-scroll td:nth-child(3){
+  min-width:280px;
+}
+
+.table-scroll a{
+  color:var(--blue);
+  text-decoration-color:var(--copper);
+}
+
+.table-scroll tr:hover td{
+  background:rgba(182,124,82,.05);
+}

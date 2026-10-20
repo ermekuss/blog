@@ -117,51 +117,11 @@ lang: ru
     <div class="video-copy"><div class="video-meta">23.05.2022 · 22:48</div><h2 class="video-title">Сұхбат: Ермек Тоқтаров, ҚСЗИ Саяси зерттеулер бөлімінің меңгерушісі</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=K0vaS1GsQF8" target="_blank" rel="noopener noreferrer">
-    <div class="video-frame"><img src="https://i.ytimg.com/vi/K0vaS1GsQF8/hqdefault.jpg" alt="Обложка видео «Роль будущих депутатов — модернизационная»" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
-    <div class="video-copy"><div class="video-meta">30.01.2023 · 1:35</div><h2 class="video-title">Роль будущих депутатов — модернизационная</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
-  </a>
-
-  <a class="video-card" href="https://www.youtube.com/watch?v=603a8ULGdGU" target="_blank" rel="noopener noreferrer">
-    <div class="video-frame"><img src="https://i.ytimg.com/vi/603a8ULGdGU/hqdefault.jpg" alt="Обложка видео о новых кадровых назначениях в Правительстве" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
-    <div class="video-copy"><div class="video-meta">06.01.2023 · 22:07</div><h2 class="video-title">Сұхбат: Үкіметтегі жаңа кадрлық тағайындаулар</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
-  </a>
-
-  <a class="video-card" href="https://www.youtube.com/watch?v=4bW8Eaw2UTM" target="_blank" rel="noopener noreferrer">
-    <div class="video-frame"><img src="https://i.ytimg.com/vi/4bW8Eaw2UTM/hqdefault.jpg" alt="Обложка видео о соответствии выборов демократическим принципам" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
-    <div class="video-copy"><div class="video-meta">22.11.2022 · 0:54</div><h2 class="video-title">Сайлау демократиялық принциптерге сай өтті</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
-  </a>
-
-  <a class="video-card" href="https://www.youtube.com/watch?v=hjYDsqMlNGE" target="_blank" rel="noopener noreferrer">
-    <div class="video-frame"><img src="https://i.ytimg.com/vi/hjYDsqMlNGE/hqdefault.jpg" alt="Обложка видео «Экспертное мнение. Ермек Токтаров»" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
-    <div class="video-copy"><div class="video-meta">19.11.2022 · 3:24</div><h2 class="video-title">Экспертное мнение. Ермек Токтаров</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
-  </a>
-
-  <a class="video-card" href="https://www.youtube.com/watch?v=abJozwPQNfM" target="_blank" rel="noopener noreferrer">
-    <div class="video-frame"><img src="https://i.ytimg.com/vi/abJozwPQNfM/hqdefault.jpg" alt="Обложка программы «Время действий» с Ермеком Токтаровым" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
-    <div class="video-copy"><div class="video-meta">26.10.2022 · 45:51</div><h2 class="video-title">«Время действий» | Ермек Токтаров</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
-  </a>
-
-  <a class="video-card" href="https://www.youtube.com/watch?v=wv-l2L0gWig" target="_blank" rel="noopener noreferrer">
-    <div class="video-frame"><img src="https://i.ytimg.com/vi/wv-l2L0gWig/hqdefault.jpg" alt="Обложка программы «Біздің мақсат. Сайлауға да саясат керек»" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
-    <div class="video-copy"><div class="video-meta">26.10.2022 · 41:59</div><h2 class="video-title">«Біздің мақсат». Сайлауға да саясат керек</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
-  </a>
-
-  <a class="video-card" href="https://www.youtube.com/watch?v=dXL5NH5Hwsg" target="_blank" rel="noopener noreferrer">
-    <div class="video-frame"><img src="https://i.ytimg.com/vi/dXL5NH5Hwsg/hqdefault.jpg" alt="Обложка программы «Итоги. Агиткампания началась»" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
-    <div class="video-copy"><div class="video-meta">21.10.2022 · 35:24</div><h2 class="video-title">«Итоги». Агиткампания началась</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
-  </a>
-
    <a class="video-card" href="https://www.youtube.com/watch?v=oUVSaA5qrx4" target="_blank" rel="noopener noreferrer">
     <div class="video-frame"><img src="https://i.ytimg.com/vi/oUVSaA5qrx4/hqdefault.jpg" alt="Обложка программы «Басты тақырып»" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
     <div class="video-copy"><div class="video-meta">08.06.2022 · 25:34</div><h2 class="video-title">«Басты тақырып»</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=ERHuJg82HFw" target="_blank" rel="noopener noreferrer">
-    <div class="video-frame"><img src="https://i.ytimg.com/vi/ERHuJg82HFw/hqdefault.jpg" alt="Обложка комментария о референдуме" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
-    <div class="video-copy"><div class="video-meta">03.06.2022 · 0:32</div><h2 class="video-title">Референдум: каждый гражданин может повлиять на будущее страны</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
-  </a>
-
-</div>
+ </div>
 
 *Названия, даты и длительность указаны по данным страниц YouTube на 20 октября 2026 года.*

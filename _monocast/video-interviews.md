@@ -107,6 +107,16 @@ lang: ru
     <div class="video-copy"><div class="video-meta">11.02.2024 · 39:41</div><h2 class="video-title">Методика исследования — главный навык эксперта</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
   </a>
 
+   <a class="video-card" href="https://www.youtube.com/watch?v=AcwCrUmQrFQ" target="_blank" rel="noopener noreferrer">
+    <div class="video-frame"><img src="https://i.ytimg.com/vi/AcwCrUmQrFQ/hqdefault.jpg" alt="Обложка интервью о политической грамотности и президентских выборах" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
+    <div class="video-copy"><div class="video-meta">04.10.2022 · 35:31</div><h2 class="video-title">Политическая грамотность и президентские выборы</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
+  </a>
+
+  <a class="video-card" href="https://www.youtube.com/watch?v=1nBxboVzSNc" target="_blank" rel="noopener noreferrer">
+    <div class="video-frame"><img src="https://i.ytimg.com/vi/1nBxboVzSNc/hqdefault.jpg" alt="Обложка интервью с Ермеком Токтаровым, руководителем отдела политических исследований КИСИ" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
+    <div class="video-copy"><div class="video-meta">23.05.2022 · 22:48</div><h2 class="video-title">Сұхбат: Ермек Тоқтаров, ҚСЗИ Саяси зерттеулер бөлімінің меңгерушісі</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
+  </a>
+
   <a class="video-card" href="https://www.youtube.com/watch?v=K0vaS1GsQF8" target="_blank" rel="noopener noreferrer">
     <div class="video-frame"><img src="https://i.ytimg.com/vi/K0vaS1GsQF8/hqdefault.jpg" alt="Обложка видео «Роль будущих депутатов — модернизационная»" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
     <div class="video-copy"><div class="video-meta">30.01.2023 · 1:35</div><h2 class="video-title">Роль будущих депутатов — модернизационная</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
@@ -142,12 +152,7 @@ lang: ru
     <div class="video-copy"><div class="video-meta">21.10.2022 · 35:24</div><h2 class="video-title">«Итоги». Агиткампания началась</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
   </a>
 
-  <a class="video-card" href="https://www.youtube.com/watch?v=AcwCrUmQrFQ" target="_blank" rel="noopener noreferrer">
-    <div class="video-frame"><img src="https://i.ytimg.com/vi/AcwCrUmQrFQ/hqdefault.jpg" alt="Обложка интервью о политической грамотности и президентских выборах" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
-    <div class="video-copy"><div class="video-meta">04.10.2022 · 35:31</div><h2 class="video-title">Политическая грамотность и президентские выборы</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
-  </a>
-
-  <a class="video-card" href="https://www.youtube.com/watch?v=oUVSaA5qrx4" target="_blank" rel="noopener noreferrer">
+   <a class="video-card" href="https://www.youtube.com/watch?v=oUVSaA5qrx4" target="_blank" rel="noopener noreferrer">
     <div class="video-frame"><img src="https://i.ytimg.com/vi/oUVSaA5qrx4/hqdefault.jpg" alt="Обложка программы «Басты тақырып»" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
     <div class="video-copy"><div class="video-meta">08.06.2022 · 25:34</div><h2 class="video-title">«Басты тақырып»</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
   </a>
@@ -155,21 +160,6 @@ lang: ru
   <a class="video-card" href="https://www.youtube.com/watch?v=ERHuJg82HFw" target="_blank" rel="noopener noreferrer">
     <div class="video-frame"><img src="https://i.ytimg.com/vi/ERHuJg82HFw/hqdefault.jpg" alt="Обложка комментария о референдуме" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
     <div class="video-copy"><div class="video-meta">03.06.2022 · 0:32</div><h2 class="video-title">Референдум: каждый гражданин может повлиять на будущее страны</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
-  </a>
-
-  <a class="video-card" href="https://www.youtube.com/watch?v=WiymxFFIAcM" target="_blank" rel="noopener noreferrer">
-    <div class="video-frame"><img src="https://i.ytimg.com/vi/WiymxFFIAcM/hqdefault.jpg" alt="Обложка комментария о новой роли Сената" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
-    <div class="video-copy"><div class="video-meta">23.05.2022 · 1:46</div><h2 class="video-title">Енді Сенаттың рөлі басқаша болады</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
-  </a>
-
-  <a class="video-card" href="https://www.youtube.com/watch?v=1nBxboVzSNc" target="_blank" rel="noopener noreferrer">
-    <div class="video-frame"><img src="https://i.ytimg.com/vi/1nBxboVzSNc/hqdefault.jpg" alt="Обложка интервью с Ермеком Токтаровым, руководителем отдела политических исследований КИСИ" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
-    <div class="video-copy"><div class="video-meta">23.05.2022 · 22:48</div><h2 class="video-title">Сұхбат: Ермек Тоқтаров, ҚСЗИ Саяси зерттеулер бөлімінің меңгерушісі</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
-  </a>
-
-  <a class="video-card" href="https://www.youtube.com/watch?v=UJ0C4mFrMMU" target="_blank" rel="noopener noreferrer">
-    <div class="video-frame"><img src="https://i.ytimg.com/vi/UJ0C4mFrMMU/hqdefault.jpg" alt="Обложка комментария о прямых выборах акимов" loading="lazy"><span class="video-play" aria-hidden="true">▶</span></div>
-    <div class="video-copy"><div class="video-meta">08.06.2021 · 1:00</div><h2 class="video-title">Азаматтар әкімдерді тікелей сайлауға дайын</h2><span class="video-action">Смотреть на YouTube ↗</span></div>
   </a>
 
 </div>
